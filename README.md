@@ -51,9 +51,7 @@ strands.forEach(strand => {
         return res + d.health;
       }
       return res;
-    }.bind(null, strand.start, strand.end),
-    null,
-    0
+    }.bind(null, strand.start, strand.end)
   );
   console.log(result);
 });
