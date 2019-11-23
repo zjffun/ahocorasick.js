@@ -1,0 +1,24 @@
+{
+  "name": "ahocorasick.js",
+  "version": "1.0.0",
+  "description": "Just a JS implementation of Aho–Corasick algorithm.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test.sh",
+    "debug": "node --inspect-brk ./test/test.js < ./test/input13.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjffun/ahocorasick.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjffun/ahocorasick.js/issues"
+  },
+  "homepage": "https://github.com/zjffun/ahocorasick.js#readme"
+}
